@@ -7,7 +7,7 @@ import customCake3 from "../assets/custom-cake3.jpeg";
 // import customCake4 from "../assets/custom-cake4.jpeg";
 import customCake5 from "../assets/custom-cake5.jpeg";
 import customCake6 from "../assets/custom-cake6.jpeg";
-import customCake7 from "../assets/custom-cake7.jpeg";
+// import customCake7 from "../assets/custom-cake7.jpeg";
 // import customCake8 from "../assets/custom-cake8.jpeg";
 import customCake9 from "../assets/custom-cake9.jpeg";
 import customCake10 from "../assets/custom-cake10.jpeg";
@@ -61,14 +61,14 @@ export const menuItems = [
       "Our premium eggless red velvet with rich cream cheese frosting.",
     image: customCake6,
   },
-  {
-    id: 6,
-    name: "Custom Chocolate Mousse Cake 500g",
-    price: 1050.0,
-    description:
-      "Our premium eggless red velvet with rich cream cheese frosting.",
-    image: customCake7,
-  },
+  // {
+  //   id: 6,
+  //   name: "Custom Chocolate Mousse Cake 500g",
+  //   price: 1050.0,
+  //   description:
+  //     "Our premium eggless red velvet with rich cream cheese frosting.",
+  //   image: customCake7,
+  // },
   // {
   //   id: 8,
   //   name: "Signature Eggless Red Velvet",
@@ -78,15 +78,15 @@ export const menuItems = [
   //   image: customCake8,
   // },
   {
-    id: 7,
+    id: 6,
     name: "Chocolate Mousse Cake",
-    price: 3500.0,
+    price: 1050.0,
     description:
       "Our premium eggless red velvet with rich cream cheese frosting.",
     image: customCake9,
   },
   {
-    id: 8,
+    id: 7,
     name: "Eggless Mango Cake 500g",
     price: 379.0,
     description:
