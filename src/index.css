@@ -1,16 +1,43 @@
 /* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800&display=swap');
 @import "tailwindcss";
 
+/* ALL other CSS rules must go below the imports */
 @theme {
   --mode-dark: selector(.dark);
 }
 
 body {
-  @apply bg-amber-50 text-amber-900 transition-colors duration-300;
-  transition: background-color 0.3s, color 0.3s;
+  @apply bg-[#FFFBF9] text-[#4A2B23] transition-colors duration-300;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* Define your dark mode colors here */
+/* ... the rest of your CSS ... */
+
+/* ... the rest of your CSS ... */
+
+h1, h2, h3, h4, .font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
 .dark body {
   @apply bg-slate-900 text-slate-100;
 }
+
+/* --- Dribbble UI Custom Classes --- */
+.glass-nav {
+  @apply bg-white/70 dark:bg-slate-900/80 backdrop-blur-md border-b border-[#FCEAEA] dark:border-slate-800;
+}
+
+.dribbble-card {
+  @apply bg-white dark:bg-slate-800 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.03)] hover:shadow-[0_20px_40px_rgb(255,142,158,0.15)] transition-all duration-500 hover:-translate-y-2 border border-[#FFF0F2] dark:border-slate-700;
+}
+
+.btn-primary {
+  @apply bg-[#FF8E9E] hover:bg-[#FF7A8E] text-white rounded-full font-semibold shadow-lg shadow-pink-200 dark:shadow-none transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2;
+}
+
+.btn-secondary {
+  @apply bg-white dark:bg-slate-800 text-[#4A2B23] dark:text-slate-200 rounded-full font-semibold shadow-sm hover:shadow-md border border-[#FCEAEA] dark:border-slate-700 transition-all hover:scale-105 active:scale-95;
+}
+
